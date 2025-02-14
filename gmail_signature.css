@@ -52,6 +52,12 @@
 	border: 1px #fff solid;
 }
 
+.hr-divider {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
 .ppatel-gmail-signature .signature-details {
 	color: #fff;
 	padding: 15px 10px 15px 50px;
