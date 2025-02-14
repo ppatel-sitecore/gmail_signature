@@ -1,6 +1,6 @@
-.email-signature10 {
+.ppatel-gmail-signature {
 	background: #fff;
-	background-image: url('https://drive.usercontent.google.com/download?id=1iSqN-C7LW1xKWI4DcFLDhjjFDG_DrBDj&export=view&authuser=0');
+	background-image: url('https://ppatel-sitecore.github.io/gmail_signature/gmail_signature_bg.png');
 	background-size: cover;
 	background-position: center;
 	font-family: 'Calibria', sans-serif;
@@ -10,7 +10,7 @@
 	position: relative
 }
 
-.email-signature10:before {
+.ppatel-gmail-signature:before {
 	content: "";
 	background: rgba(40, 167, 69, 0.6);
 	backdrop-filter: blur(10px);
@@ -22,7 +22,7 @@
 	left: 0
 }
 
-.email-signature10 .signature-img {
+.ppatel-gmail-signature .signature-img {
 	background: #fff;
 	width: 140px;
 	height: 140px;
@@ -36,7 +36,7 @@
 	z-index: 1
 }
 
-.email-signature10 .signature-img img {
+.ppatel-gmail-signature .signature-img img {
 	width: 100%;
 	height: auto;
 	border-radius: 50%
@@ -52,13 +52,13 @@
 	border: 1px #fff solid;
 }
 
-.email-signature10 .signature-details {
+.ppatel-gmail-signature .signature-details {
 	color: #fff;
 	padding: 15px 10px 15px 50px;
 	margin-bottom: 20px;
 }
 
-.email-signature10 .title {
+.ppatel-gmail-signature .title {
 	font-size: 25px;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -66,14 +66,14 @@
 	margin: 0;
 }
 
-.email-signature10 .post {
+.ppatel-gmail-signature .post {
 	font-size: 16px;
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 1px
 }
 
-.email-signature10 .signature-content {
+.ppatel-gmail-signature .signature-content {
 	padding: 20px 10px 0 0;
 	margin: 0;
 	list-style: none;
@@ -89,8 +89,8 @@
 	}
 }
 
-.email-signature10 .signature-content:after,
-.email-signature10 .signature-content:before {
+.ppatel-gmail-signature .signature-content:after,
+.ppatel-gmail-signature .signature-content:before {
 	content: "";
 	background: rgba(0, 123, 255, 0.6);
 	width: 4px;
@@ -100,7 +100,7 @@
 	left: -25px
 }
 
-.email-signature10 .signature-content:after {
+.ppatel-gmail-signature .signature-content:after {
 	background: rgba(40, 167, 69, 0.6);
 	backdrop-filter: blur(10px);
 	-webkit-backdrop-filter: blur(10px);
@@ -109,13 +109,13 @@
 	left: -35px
 }
 
-.email-signature10 .signature-content li {
+.ppatel-gmail-signature .signature-content li {
 	font-size: 16px;
 	margin: 0 0 10px;
 	display: block
 }
 
-.email-signature10 .signature-content li span {
+.ppatel-gmail-signature .signature-content li span {
 	font-size: 20px;
 	text-align: center;
 	line-height: 23px;
@@ -125,35 +125,35 @@
 }
 
 @media screen and (max-width:576px) {
-	.email-signature10 {
+	.ppatel-gmail-signature {
 		padding: 200px 0 15px
 	}
 
-	.email-signature10:before {
+	.ppatel-gmail-signature:before {
 		background: linear-gradient(to bottom, #28a745 49%, #28a745 50%);
 		width: 100%;
 		height: 15px
 	}
 
-	.email-signature10 .signature-img {
+	.ppatel-gmail-signature .signature-img {
 		margin: 0 auto;
 		top: 26px;
 		left: 0;
 		right: 0
 	}
 
-	.email-signature10 .signature-details {
+	.ppatel-gmail-signature .signature-details {
 		padding: 10px;
 		border-right: none
 	}
 
-	.email-signature10 .signature-content {
+	.ppatel-gmail-signature .signature-content {
 		text-align: center;
 		padding: 0
 	}
 
-	.email-signature10 .signature-content:after,
-	.email-signature10 .signature-content:before {
+	.ppatel-gmail-signature .signature-content:after,
+	.ppatel-gmail-signature .signature-content:before {
 		width: 60%;
 		height: 4px;
 		transform: translateX(-50%);
@@ -161,7 +161,7 @@
 		left: 50%
 	}
 
-	.email-signature10 .signature-content:after {
+	.ppatel-gmail-signature .signature-content:after {
 		width: 45%;
 		top: -112px
 	}
