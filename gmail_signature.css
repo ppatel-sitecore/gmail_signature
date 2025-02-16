@@ -1,174 +1,162 @@
 .ppatel-gmail-signature {
-	background: #fff;
-	background-image: url('https://ppatel-sitecore.github.io/gmail_signature/gmail_signature_bg.png');
-	background-size: cover;
-	background-position: center;
-	font-family: 'Calibria', sans-serif;
-	padding: 50px 20px 15px 120px;
-	box-shadow: 10px 10px 3px rgba(0, 0, 0, .2);
-	overflow: hidden;
-	position: relative
+  background: #fff url('https://ppatel-sitecore.github.io/gmail_signature/gmail_signature_bg.png') center/cover;
+  font-family: 'Calibri', sans-serif;
+  padding: 50px 20px 15px 120px;
+  box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
 }
 
-.ppatel-gmail-signature:before {
-	content: "";
-	background: rgba(40, 167, 69, 0.6);
-	backdrop-filter: blur(10px);
-	-webkit-backdrop-filter: blur(10px);
-	width: 18px;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0
+.ppatel-gmail-signature::before {
+  content: "";
+  background: rgba(40, 167, 69, 0.6);
+  backdrop-filter: blur(10px);
+  width: 18px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-.ppatel-gmail-signature .signature-img {
-	background: #fff;
-	width: 140px;
-	height: 140px;
-	padding: 3px;
-	border-radius: 50%;
-	border: 5px solid #28a745;
-	overflow: hidden;
-	position: absolute;
-	top: 15px;
-	left: 30px;
-	z-index: 1
+.signature-img {
+  background: #fff;
+  width: 140px;
+  height: 140px;
+  padding: 3px;
+  border-radius: 50%;
+  border: 5px solid #28a745;
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  z-index: 1;
 }
 
-.ppatel-gmail-signature .signature-img img {
-	width: 100%;
-	height: auto;
-	border-radius: 50%
+.signature-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.tinted-glass, .ppatel-gmail-signature::before, .signature-content::before, .signature-content::after {
+  backdrop-filter: blur(10px);
 }
 
 .tinted-glass {
-	background: rgba(40, 167, 69, 0.6);
-	backdrop-filter: blur(10px);
-	-webkit-backdrop-filter: blur(10px);
-	border-radius: 10px;
-	padding: 1rem;
-	color: white;
-	border: 1px #fff solid;
+  background: rgba(40, 167, 69, 0.6);
+  border-radius: 10px;
+  padding: 1rem;
+  color: #fff;
+  border: 1px solid #fff;
 }
 
 .hr-divider {
-	height: 10px;
-	border: 0;
-	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+  height: 10px;
+  border: 0;
+  box-shadow: inset 0 10px 10px -10px #8c8b8b;
 }
 
-.ppatel-gmail-signature .signature-details {
-	color: #fff;
-	padding: 15px 10px 15px 50px;
-	margin-bottom: 20px;
+.signature-details {
+  color: #fff;
+  padding: 15px 10px 15px 50px;
+  margin-bottom: 20px;
 }
 
-.ppatel-gmail-signature .title {
-	font-size: 25px;
-	font-weight: 600;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	margin: 0;
+.title {
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
 }
 
-.ppatel-gmail-signature .post {
-	font-size: 16px;
-	font-weight: 400;
-	text-transform: uppercase;
-	letter-spacing: 1px
+.post {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
-.ppatel-gmail-signature .signature-content {
-	padding: 20px 10px 0 0;
-	margin: 0;
-	list-style: none;
-	position: relative;
-	
-	
-	li {
-		border-bottom: 1px #fff solid;
-		
-		a {
-			color: #fff !important;
-		}
-	}
+.signature-content {
+  padding: 20px 10px 0 0;
+  list-style: none;
+  position: relative;
 }
 
-.ppatel-gmail-signature .signature-content:after,
-.ppatel-gmail-signature .signature-content:before {
-	content: "";
-	background: rgba(0, 123, 255, 0.6);
-	width: 4px;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: -25px
+.signature-content li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #fff;
 }
 
-.ppatel-gmail-signature .signature-content:after {
-	background: rgba(40, 167, 69, 0.6);
-	backdrop-filter: blur(10px);
-	-webkit-backdrop-filter: blur(10px);
-	height: 80%;
-	top: 20px;
-	left: -35px
+.signature-content li a {
+  color: #fff !important;
 }
 
-.ppatel-gmail-signature .signature-content li {
-	font-size: 16px;
-	margin: 0 0 10px;
-	display: block
+.signature-content li span {
+  font-size: 20px;
+  text-align: center;
+  line-height: 23px;
+  height: 23px;
+  width: 25px;
+  margin: 2px 2px 0 0;
 }
 
-.ppatel-gmail-signature .signature-content li span {
-	font-size: 20px;
-	text-align: center;
-	line-height: 23px;
-	height: 23px;
-	width: 25px;
-	margin: 2px 2px 0 0
+.signature-content::before,
+.signature-content::after {
+  content: "";
+  background: rgba(0, 123, 255, 0.6);
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -25px;
 }
 
-@media screen and (max-width:576px) {
-	.ppatel-gmail-signature {
-		padding: 200px 0 15px
-	}
+.signature-content::after {
+  background: rgba(40, 167, 69, 0.6);
+  height: 80%;
+  top: 20px;
+  left: -35px;
+}
 
-	.ppatel-gmail-signature:before {
-		background: linear-gradient(to bottom, #28a745 49%, #28a745 50%);
-		width: 100%;
-		height: 15px
-	}
+@media screen and (max-width: 576px) {
+  .ppatel-gmail-signature {
+    padding: 200px 0 15px;
 
-	.ppatel-gmail-signature .signature-img {
-		margin: 0 auto;
-		top: 26px;
-		left: 0;
-		right: 0
-	}
+    &::before {
+      background: linear-gradient(to bottom, #28a745 49%, #28a745 50%);
+      width: 100%;
+      height: 15px;
+    }
 
-	.ppatel-gmail-signature .signature-details {
-		padding: 10px;
-		border-right: none
-	}
+    .signature-img {
+      margin: 0 auto;
+      top: 26px;
+      left: 0;
+      right: 0;
+    }
 
-	.ppatel-gmail-signature .signature-content {
-		text-align: center;
-		padding: 0
-	}
+    .signature-details {
+      padding: 10px;
+    }
 
-	.ppatel-gmail-signature .signature-content:after,
-	.ppatel-gmail-signature .signature-content:before {
-		width: 60%;
-		height: 4px;
-		transform: translateX(-50%);
-		top: -103px;
-		left: 50%
-	}
+    .signature-content {
+      text-align: center;
+      padding: 0;
 
-	.ppatel-gmail-signature .signature-content:after {
-		width: 45%;
-		top: -112px
-	}
+      &::before,
+      &::after {
+        width: 60%;
+        height: 4px;
+        transform: translateX(-50%);
+        top: -103px;
+        left: 50%;
+      }
+
+      &::after {
+        width: 45%;
+        top: -112px;
+      }
+    }
+  }
 }
