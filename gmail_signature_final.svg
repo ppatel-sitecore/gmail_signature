@@ -1,0 +1,34 @@
+<svg style="width:100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 460">
+	<style>
+		.image-mapper-shape {
+			fill: rgba(0, 0, 0, 0);
+		}
+		g:hover .image-mapper-shape {
+			stroke: white;
+			stroke-width: 2px;
+			opacity: 20%;
+		}
+	</style>
+			
+	<image xlink:href="https://ppatel-sitecore.github.io/gmail_signature/gmail_signature_final.png" style="width: 100%; max-width: 1920px"></image>
+	<a xlink:href="https://www.sitecore.com" target="_blank" xlink:title="Sitecore">
+		<g>
+			<rect x="193.2763532763533" y="118.5185185185185" width="145.86894586894584" height="47.40740740740742" class="image-mapper-shape" data-index="1"></rect>
+		</g>
+	</a> 
+	<a xlink:href="mailto:praveshp@gmail.com" target="_blank" xlink:title="praveshp@gmail.com">
+		<g>
+			<rect x="145.86894586894587" y="237.03703703703704" width="213.33333333333334" height="41.93732193732191" class="image-mapper-shape" data-index="7"></rect>
+		</g>
+	</a>
+	<a xlink:href="tel:+14437544190" target="_blank" xlink:title="+1 443-754-4190">
+		<g>
+			<rect x="145.86894586894587" y="280.7977207977208" width="213.33333333333334" height="41.93732193732194" class="image-mapper-shape" data-index="9"></rect>
+		</g>
+	</a>
+	<a xlink:href="https://www.linkedin.com/in/pravesh-patel-72814434/" target="_blank" xlink:title="LinkedIn Profile">
+		<g>
+			<rect x="145.86894586894587" y="326.3817663817664" width="213.33333333333334" height="43.76068376068372" class="image-mapper-shape" data-index="10"></rect>
+		</g>
+	</a>
+</svg>
