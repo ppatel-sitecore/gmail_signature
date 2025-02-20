@@ -1,27 +1,26 @@
 <svg style="width:100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 460">
-	<style>
-		.image-mapper-shape {
-			fill: rgba(0, 0, 0, 0);
-		}
+	<defs>
+		<style type="text/css">
+			.image-mapper-shape {
+				fill: rgba(0, 0, 0, 0);
+			}
 
-		a:hover .image-mapper-shape { /* Modified selector for hover effect */
-			stroke: white;
-			stroke-width: 2px;
-			opacity: 20%;
-		}
+			a:hover .image-mapper-shape { /* Modified selector for hover effect */
+				stroke: white;
+				stroke-width: 2px;
+				opacity: 20%;
+			}
 
-		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-		text {
-			font-family: 'Calibri', sans-serif;
-			font-size: 16px;
-			margin-top: 1rem !important;
-			margin-bottom: 3rem !important;
-		}
-	</style>
+			text {
+				font-family: 'Calibri', sans-serif;
+				font-size: 16px;
+			}
+		</style>
+	</defs>
 
 	<image xlink:href="https://ppatel-sitecore.github.io/gmail_signature/gmail_signature_final.png" width="1920" height="460"/>
 
-	<text x="10" y="20" font-size="16">Kind Regards,</text> 
+	<text x="16" y="-20" font-size="16">Kind Regards,</text> 
 
 	<a xlink:href="https://www.sitecore.com" target="_blank" xlink:title="Sitecore">
 		<rect x="193.2763532763533" y="118.5185185185185" width="145.86894586894584" height="47.40740740740742" class="image-mapper-shape" data-index="1" />
