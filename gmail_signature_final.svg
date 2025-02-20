@@ -9,11 +9,19 @@
 			stroke-width: 2px;
 			opacity: 20%;
 		}
+
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+		text {
+			font-family: 'Calibri', sans-serif;
+			font-size: 16px;
+			margin-top: 1rem !important;
+			margin-bottom: 3rem !important;
+		}
 	</style>
 
-	<image xlink:href="https://ppatel-sitecore.github.io/gmail_signature/gmail_signature_final.png" width="1920" height="460"/>  <!-- Added width and height to image -->
+	<image xlink:href="https://ppatel-sitecore.github.io/gmail_signature/gmail_signature_final.png" width="1920" height="460"/>
 
-	<text x="10" y="20" font-size="20">Kind Regards,</text> <!-- Changed paragraph to text element, adjust positioning as necessary -->
+	<text x="10" y="20" font-size="16">Kind Regards,</text> 
 
 	<a xlink:href="https://www.sitecore.com" target="_blank" xlink:title="Sitecore">
 		<rect x="193.2763532763533" y="118.5185185185185" width="145.86894586894584" height="47.40740740740742" class="image-mapper-shape" data-index="1" />
